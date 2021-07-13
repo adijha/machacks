@@ -1,6 +1,6 @@
 # machacks
 
-##Close Active Ports MAC
+## Close Active Ports MAC
 
 
 get your PID by this command
@@ -20,5 +20,14 @@ In my case 19127
 ```
 
 sudo kill -9 PID
+
+```
+
+## Reset stucked touchbar
+
+```
+sudo pkill TouchBarServer;
+
+sudo killall “ControlStrip”;
 
 ```
